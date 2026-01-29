@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroMart | Premium Electronics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo">VASA Electro<span>Mart</span></div>
+            <ul class="nav-links">
+                <li><a href="#tvs">Smart TVs</a></li>
+                <li><a href="#audio">Audio</a></li>
+                <li><a href="#appliances">Appliances</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-icons">
+                <button class="cart-btn" onclick="toggleCart()">🛒 Cart (<span id="cart-count">0</span>)</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-banner">
+        <div class="hero-content">
+            <h1>Upgrade Your Living Room</h1>
+           <div class="slider-container">
+    <div class="slider">
+        <div class="slide active">
+            <img src="image/Tv.jpg" alt="Premium Smart TV">
+            <div class="slide-content">
+                <h2>Vasa Ultra OLED</h2>
+                <p>Experience true 4K clarity.</p>
+                <a href="#tvs" class="cta-button">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=1200" alt="High-End Audio">
+            <div class="slide-content">
+                <h2>Deep Bass Series</h2>
+                <p>Premium Surround Sound Systems.</p>
+                <a href="#audio" class="cta-button">View Collection</a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="image/Fridge.png" alt="Smart Fridge">
+            <div class="slide-content">
+                <h2>Smart Kitchen</h2>
+                <p>Energy-efficient household items.</p>
+                <a href="#appliances" class="cta-button">Explore</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <main class="store-container">
+        
+        <h2 class="section-title" id="tvs">Smart TVs</h2>
+        <div class="product-grid">
+            <div class="product-card">
+    <div class="badge">Crystal 4K</div>
+    <div class="img-container">
+        <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=800" alt="Samsung Style TV">
+    </div>
+    <h3>Vasa Crystal 55" UHD</h3>
+    <p class="price">Ksh 45,000.00</p>
+    <button class="add-btn">Add to Cart</button>
+    <a href="https://wa.me/254700000000?text=I%20want%20to%20buy%20the%2055%20inch%20Crystal%20TV" class="wa-btn">Buy via WhatsApp</a>
+</div>
+
+<div class="product-card">
+    <div class="badge">Art Mode</div>
+    <div class="img-container">
+        <img src="https://images.unsplash.com/photo-1509281373149-e957c6296406?q=80&w=800" alt="Art Frame TV">
+    </div>
+    <h3>Vasa Frame 50" Smart TV</h3>
+    <p class="price">Ksh 41,000.00</p>
+    <button class="add-btn">Add to Cart</button>
+    <a href="https://wa.me/254743355934?text=Hey I want to buy the 50 Inch Tv" class="wa-btn">Buy via WhatsApp</a>
+</div>
+
+<div class="product-card">
+    <div class="badge">OLED 4K 65"</div>
+    <div class="img-container">
+        <img src="image/Tv.jpg" alt="Art Frame TV">
+    </div>
+    <h3>Vasa Frame 65" Smart TV</h3>
+    <p class="price">Ksh 57,000.00</p>
+    <button class="add-btn">Add to Cart</button>
+    <a href="https://wa.me/254743355934?text=Hey I want to buy the 65 Inch Tv" class="wa-btn">Buy via WhatsApp</a>
+</div>
+            </div>
+        </div>
+
+        <h2 class="section-title" id="audio">Audio & Woofers</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="badge">Deep Bass</div>
+                <div class="img-container">
+                    <img src="image/woofer.webp" alt="Woofer"> alt="Woofer">
+                </div>
+                <h3>5.1 Ch Soundbar System</h3>
+                <p class="price">Ksh 10,000.00</p>
+                <button class="add-btn">Add to Cart</button>
+                <a href="https://wa.me/254743355934?text=Hey I want to buy the Soundbar" class="wa-btn">Buy via WhatsApp</a>
+            </div>
+             <div class="product-card">
+                <div class="badge">Vitron</div>
+                <div class="img-container">
+                    <img src="image/Vitron-V61SB-Soundbar-.png" alt="Woofer"> alt="Woofer">
+                </div>
+                <h3>6.1 Ch Soundbar System</h3>
+                <p class="price">Ksh 15,000.00</p>
+                <button class="add-btn">Add to Cart</button>
+                <a href="https://wa.me/254743355934?text=Hey I want to buy the 6.1 Soundbar" class="wa-btn">Buy via WhatsApp</a>
+        </div>
+         <div class="product-card">
+                <div class="badge">Deep Bass</div>
+                <div class="img-container">
+                    <img src="image/Home Theater.webp" alt="Woofer"> alt="Woofer">
+                </div>
+                <h3>Home Theater</h3>
+                <p class="price">Ksh 20,000.00</p>
+                <button class="add-btn">Add to Cart</button>
+                <a href="https://wa.me/254743355934?text=Hey I want to buy the Home Theater Soundbar" class="wa-btn">Buy via WhatsApp</a>
+         </div>
+         </div>
+
+        <h3 class="section-title" id="appliances">HouseHold Appliances</h3>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="badge">Smart Tech</div>
+                <div class="img-container">
+                    <img src="image/Fridge.png" alt="Fridge"> alt="Fridge">
+                </div>
+                <h3>Double Door Smart Fridge</h3>
+                <p class="price">Ksh 157 000.00</p>
+                <button class="add-btn">Add to Cart</button>
+                <a href="https://wa.me/254743355934?text=Hey I want to buy the Smart Fridge" class="wa-btn">Buy via WhatsApp</a>
+            </div>
+    
+            <div class="product-card">
+    <div class="badge">Cooling</div>
+    <div class="img-container">
+        <img src="image/Mini-Handheld-Fan.avif" alt="Standing Fan">
+        </div>
+    <h3>High-Speed Standing Fan</h3>
+    <p class="price">Ksh 4500.00</p>
+    <button class="add-btn">Add to Cart</button>
+    <a href="https://wa.me/254743355934?text=Hey I want to buy the Standing Fan" class="wa-btn">Buy via WhatsApp</a>
+</div>
+
+<div class="product-card">
+    <div class="badge">Accessory</div>
+    <div class="img-container">
+        <img src="image/Ydxt-Modern-Design.avif" alt="Universal Remote">
+    </div>
+    <h3>Universal Smart Remote</h3>
+    <p class="price">Ksh 500.00</p>
+    <button class="add-btn">Add to Cart</button>
+    <a href="https://wa.me/254743355934?text=Hey I want to buy the Universal Remote" class="wa-btn">Buy via WhatsApp </a>
+</div>
+
+<div class="product-card">
+    <div class="badge">Wall Mounts</div>
+    <div class="img-container">
+        <img src="image/Wall Mounts.jpg" alt="TV Stand">
+    </div>
+    <h3>Modern Oak TV Stand</h3>
+    <p class="price">Ksh 3000.00</p>
+    <button class="add-btn">Add to Cart</button>
+    <a href="https://wa.me/254743355934?text=Hey I want to buy the TV Stand" class="wa-btn">Buy via WhatsApp</a>
+</div>
+
+<div class="product-card">
+    <div class="badge">Power</div>
+    <div class="img-container">
+        <img src="image/fastcharger.jpeg" alt="Fast Charger">
+    </div>
+    <h3>65W Fast Wall Charger</h3>
+    <p class="price">Ksh 1000.00</p>
+    <button class="add-btn">Add to Cart</button>
+    <a href="https://wa.me/254743355934?text=Hey I want to buy the Fast Charger" class="wa-btn">Buy via WhatsApp</a>
+</div>
+
+<div class="product-card">
+    <div class="badge">Electric Kettle</div>
+    <div class="img-container">
+        <img src="image/Kettle.jpeg" alt="Electric Kettle">
+    </div>
+    <h3>AILYON Electric Kettle</h3>
+    <p class="price">Ksh 1600.00</p>
+    <button class="add-btn">Add to Cart</button>
+    <a href="https://wa.me/254743355934?text=Hey I want to buy the Electric Kettle" class="wa-btn">Buy via WhatsApp</a>
+</div>
+        </div>
+
+    </main>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>For More Info:</p>
+                <h2>Visit Our Showroom</h2>
+                <ul class="contact-details">
+                    <li>📍 KABARAK, Nakuru, Kenya</li>
+                    <li>📞 +254 743 355 934</li>
+                    <li>✉️ support@vasaelectromart@gmail.com</li>
+                </ul>
+            </div>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.030638547375!2d35.95267151219669!3d-0.16911244222045558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780e05697693991%3A0xc3f8376510862086!2sKabarak%2C%20Nakuru!5e0!3m2!1sen!2ske!4v1716300000000!5m2!1sen!2ske" 
+                width="100%" height="250" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 VASA ElectroMart. Designed for high performance.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
