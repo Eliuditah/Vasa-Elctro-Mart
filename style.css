@@ -239,11 +239,16 @@ footer { text-align: center; padding: 30px; border-top: 1px solid #222; color: #
     }
 }
 
-/* Phone view: 1 item per row (best for readability) */
+/* Update this section in your style.css */
 @media (max-width: 600px) {
     .product-grid {
-        grid-template-columns: repeat(2,1fr;)
-        padding: 10px;
+        grid-template-columns: repeat(2, 1fr); /* This changes it to 2 columns */
+        gap: 10px; /* Smaller gap for small screens */
+        padding: 5px;
+    }
+    
+    .product-card h3 {
+        font-size: 14px; /* Shrink text so it fits in small columns */
     }
 }
 
