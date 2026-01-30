@@ -216,7 +216,7 @@ footer { text-align: center; padding: 30px; border-top: 1px solid #222; color: #
 @media (max-width: 768px) {
     .product-grid {
         /* Change from 3 columns to 1 column so items stack vertically */
-        grid-template-columns: 1fr !important;
+        grid-template-columns: repeat(2,1fr) !important;
         gap: 20px;
         padding: 10px;
     }
@@ -242,7 +242,8 @@ footer { text-align: center; padding: 30px; border-top: 1px solid #222; color: #
 /* Phone view: 1 item per row (best for readability) */
 @media (max-width: 600px) {
     .product-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr;)
         padding: 10px;
     }
 }
+
